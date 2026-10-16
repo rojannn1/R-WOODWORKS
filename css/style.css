@@ -1,0 +1,68 @@
+/* R. Woodworks - high fidelity styles */
+body { background-color: #d9d3c7; font-family: Arial, Helvetica, sans-serif; color: #2b2118; }
+h1, h2, h3, h4, h5 { font-family: Georgia, "Times New Roman", serif; color: #3b2a1e; }
+
+/* phone frame */
+.phone { position: relative; max-width: 400px; min-height: 780px; margin: 20px auto; background-color: #faf6ee; border-radius: 30px; box-shadow: 0 8px 30px rgba(0,0,0,0.25); padding: 0 18px 100px 18px; overflow: hidden; }
+.statusbar { padding: 12px 6px 10px 6px; font-size: 13px; font-weight: bold; color: #3b2a1e; }
+.page-title { margin-top: 6px; margin-bottom: 2px; font-size: 26px; }
+.page-sub { color: #6b5b4b; font-size: 14px; margin-bottom: 18px; }
+.back { color: #8a6a1f; text-decoration: none; font-weight: bold; font-size: 14px; }
+.brand { color: #8a6a1f; }
+
+/* buttons and forms */
+.btn-dark { background-color: #3b2a1e; border-color: #3b2a1e; border-radius: 12px; padding: 12px; font-weight: bold; }
+.btn-dark:hover { background-color: #8a6a1f; border-color: #8a6a1f; }
+.btn-outline-dark { border-color: #3b2a1e; color: #3b2a1e; border-radius: 12px; padding: 12px; font-weight: bold; }
+.btn-outline-dark:hover { background-color: #3b2a1e; }
+.form-label { font-size: 13px; font-weight: bold; color: #3b2a1e; margin-bottom: 4px; }
+.form-control { border-radius: 10px; border: 1px solid #d3c7b2; background-color: #ffffff; padding: 10px 12px; font-size: 14px; }
+.form-control:focus { border-color: #8a6a1f; box-shadow: 0 0 0 3px rgba(138,106,31,0.2); }
+.form-section { font-family: Georgia, serif; color: #8a6a1f; font-size: 15px; font-weight: bold; border-bottom: 2px solid #e6d9bd; padding-bottom: 4px; margin: 14px 0 12px 0; }
+
+/* cards */
+.card { border: none; border-radius: 16px; box-shadow: 0 2px 8px rgba(59,42,30,0.12); margin-bottom: 12px; }
+.card-body { padding: 14px; }
+.stat-label { font-size: 12px; color: #6b5b4b; margin-bottom: 2px; }
+.stat-number { font-size: 28px; margin: 0; }
+.stat-dark { background-color: #3b2a1e; }
+.stat-dark .stat-label { color: #e6d9bd; }
+.stat-dark .stat-number { color: #ffffff; }
+.order-card img { width: 100%; border-radius: 10px; }
+.order-id { font-size: 12px; color: #8a6a1f; font-weight: bold; }
+.order-title { font-family: Georgia, serif; font-size: 16px; font-weight: bold; margin: 2px 0; }
+.muted { font-size: 13px; color: #6b5b4b; }
+.card a { color: #8a6a1f; font-weight: bold; font-size: 13px; text-decoration: none; }
+.hero-img { width: 100%; border-radius: 16px; margin-bottom: 14px; }
+
+/* status tags */
+.status { float: right; font-size: 11px; font-weight: bold; padding: 4px 10px; border-radius: 20px; }
+.s-prod { background-color: #f6e7bd; color: #7a5a10; }
+.s-finish { background-color: #dbe9f6; color: #25577f; }
+.s-recv { background-color: #eadfd2; color: #5e4630; }
+.s-done { background-color: #d6efdc; color: #226b3a; }
+
+/* splash */
+.splash { text-align: center; padding-top: 110px; }
+.splash img { width: 110px; margin-bottom: 18px; }
+.splash h1 { font-size: 34px; }
+
+/* progress steps */
+.step { border-left: 4px solid #d3c7b2; margin-left: 10px; padding: 0 0 18px 18px; }
+.step-done { border-left-color: #2f8a4b; }
+.step-now { border-left-color: #8a6a1f; }
+.step h6 { font-family: Georgia, serif; margin-bottom: 2px; font-size: 16px; }
+.progress { height: 10px; border-radius: 10px; background-color: #e6d9bd; margin-bottom: 18px; }
+.progress-bar { background-color: #8a6a1f; }
+
+/* avatar */
+.avatar { width: 56px; height: 56px; line-height: 56px; border-radius: 50%; background-color: #8a6a1f; color: #ffffff; text-align: center; font-weight: bold; font-size: 20px; }
+.avatar-small { width: 42px; height: 42px; line-height: 42px; border-radius: 50%; background-color: #e6d9bd; color: #5e4630; text-align: center; font-weight: bold; font-size: 15px; }
+.table td { padding: 8px 4px; font-size: 14px; background-color: transparent; }
+.success-circle { width: 90px; height: 90px; line-height: 90px; border-radius: 50%; background-color: #d6efdc; color: #226b3a; font-size: 44px; text-align: center; margin: 90px auto 20px auto; }
+
+/* bottom navigation */
+.nav-bottom { position: absolute; bottom: 0; left: 0; right: 0; background-color: #ffffff; border-top: 1px solid #e6d9bd; padding: 10px 0 14px 0; }
+.nav-bottom a { display: block; text-decoration: none; color: #8c7e6e; font-size: 12px; }
+.nav-bottom a span { display: block; font-size: 20px; }
+.nav-bottom a.active { color: #8a6a1f; font-weight: bold; }
